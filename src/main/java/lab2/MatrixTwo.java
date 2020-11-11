@@ -83,7 +83,7 @@ public class MatrixTwo {
     }
 
     /*
-     * Find Arithmetical MEAN
+     * Find Arithmetic MEAN
      */
     private static double arithmeticMean(int[][] matrix) {
         int sum = 0;
@@ -148,7 +148,7 @@ public class MatrixTwo {
 
         System.out.println("MAX Value: " + maxValue(matrix));
         System.out.println("MIN Value: " + minValue(matrix));
-        System.out.println("MEAN Arithmetical: " + arithmeticMean(matrix));
+        System.out.println("MEAN Arithmetic: " + arithmeticMean(matrix));
         System.out.println("MEAN Geometric: " + geometricMean(matrix));
     }
 }
